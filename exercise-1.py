@@ -8,4 +8,8 @@ def replace_last(numbers):
     else:
         return numbers
     return result
+
+print(replace_last([2, 3, 4, 1]))
+print(replace_last([1, 2, 3, 4]))
+print(replace_last([1]))
 print(replace_last([]))
